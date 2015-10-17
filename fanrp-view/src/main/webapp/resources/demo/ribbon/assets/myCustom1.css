@@ -1,0 +1,467 @@
+/*.ui-panelmenu .ui-panelmenu-content{
+    padding:0.2em 0 0.2em 0.2em !important;
+    border-top:0;
+    margin-top:-2px !important;
+    position:relative !important;
+    top:1px !important;
+    overflow:auto !important;
+}
+.ui-widget-header .ui-inputfield,.ui-widget-content .ui-inputfield{
+    font-weight:normal !important;
+}
+.ui-menu-list{
+    position:static !important;
+}
+.ui-menu .ui-menu-list .ui-menuitem{
+    border:none;
+}*/
+
+/****************************/
+.ui-menu .ui-menu-list .ui-widget-header{
+    float:right !important;
+}
+/****************************/
+
+/*
+.ui-slidemenu .ui-menu-list{/*************************
+    position:absolute !important;
+    top:0 !important;
+}
+.ui-panelmenu .ui-menu-list{
+    position:static !important;
+}
+.ui-panelmenu .ui-menu-parent .ui-menu-list{
+    display:none !important;
+    margin-left:20px !important;
+}
+.ui-menu .ui-menu-list .ui-menuitem{
+    border:none;
+}*/
+
+/*********************************/
+.ui-menu .ui-menuitem{
+    float:right !important;
+}
+/*********************************/
+
+/*.ui-menubar .ui-menuitem{
+    width:auto !important;
+    clear:none !important;
+}
+.ui-menubar .ui-menu-child .ui-menuitem{
+    width:100% !important;
+}*/
+
+/********************************/
+.ui-panelmenu .ui-menuitem{
+    float:right !important;
+}
+/********************************/
+
+/*.ui-selectmanycheckbox.ui-widget td,.ui-selectoneradio.ui-widget td{
+    border:0 none;
+}*/
+
+/********************************/
+.ui-menu .ui-menuitem-link{
+    float:right !important;
+    line-height: 15px !important;
+}
+/********************************/
+
+/********************************/
+.ui-menu .ui-menuitem-link .ui-menuitem-icon{
+    float:right !important;
+}
+/********************************/
+
+/*.ui-menubar .ui-menuitem-link{
+    width:auto !important;
+    padding:0.4em 0.3em !important;
+}
+.ui-menubar .ui-menu-child .ui-menuitem-link{
+    width:92% !important;
+}
+.ui-megamenu-vertical .ui-submenu-link.ui-menuitem-link{
+    width:92% !important;
+}*/
+
+/********************************/
+.ui-breadcrumb ul li .ui-menuitem-link{
+    float:right !important;
+}
+/********************************/
+
+/********************************/
+.ui-panelmenu .ui-menuitem-link{
+    float:right !important;
+}
+/********************************/
+
+/********************************/
+.ui-menu .ui-menuitem-link .ui-menuitem-icon{
+    float:right !important;
+}
+/********************************/
+
+/********************************/
+.ui-icon{
+    text-indent:-99999px !important;
+}
+/********************************/
+
+/********************************/
+.ui-accordion .ui-accordion-header .ui-icon{
+    left:.5em !important;
+    right:.5em !important;
+}
+/********************************/
+
+/********************************/
+.ui-accordion.ui-accordion-rtl .ui-accordion-header .ui-icon{
+    right:0.5em !important;
+    left:auto !important;
+}
+/********************************/
+
+/********************************/
+.ui-selectlistbox-filter-container .ui-icon{
+    right:2px !important;
+}
+/********************************/
+
+/*.ui-chkbox-icon.ui-icon{
+    overflow:visible !important;
+}
+.ui-selectonemenu .ui-selectonemenu-trigger  .ui-icon{
+    margin-top:3px !important;
+}*/
+
+/********************************/
+.ui-selectonemenu-panel .ui-selectonemenu-filter-container .ui-icon{
+    right:10px !important;
+}
+/********************************/
+
+/*.ui-button-icon-only .ui-icon{
+    left:50% !important;
+    margin-left:-8px !important;
+}
+.ui-selectcheckboxmenu .ui-selectcheckboxmenu-trigger  .ui-icon{
+    margin-top:3px !important;
+}*/
+
+/********************************/
+.ui-selectcheckboxmenu-header .ui-selectcheckboxmenu-filter-container .ui-icon{
+    right:5px !important;
+}
+/********************************/
+
+/********************************/
+.ui-selectcheckboxmenu-header span.ui-icon{
+    float:right !important;
+}
+/********************************/
+
+/********************************/
+.ui-menu.ui-menu-toggleable li.ui-widget-header .ui-icon{
+    left:.5em !important;
+}
+/********************************/
+
+/********************************/
+.ui-slidemenu-backward .ui-icon{
+    float:right !important;
+}
+/********************************/
+
+/********************************/
+.ui-panelmenu .ui-panelmenu-header .ui-icon{
+    left:.5em !important;
+}
+/********************************/
+
+/********************************/
+.ui-panelmenu .ui-icon{
+    float:right !important;
+}
+/********************************/
+
+/********************************/
+.ui-tabmenu .ui-tabmenu-nav .ui-tabmenuitem .ui-icon{
+    float:right !important;
+}
+/********************************/
+
+/********************************/
+.ui-picklist .ui-picklist-filter-container .ui-icon{
+    right:2px !important;
+}
+/********************************/
+
+/*.ui-spinner .ui-icon{
+    left:0 !important;
+    margin-top:-8px !important;
+    position:absolute !important;
+    top:50% !important;
+}*/
+
+/********************************/
+.ui-tabs .ui-tabs-nav li .ui-icon{
+    float:right !important;
+    margin:0.4em 0.2em 0 0 !important;
+}
+/********************************/
+
+/*.ui-breadcrumb ul li a.ui-icon-home{
+    padding:0 !important;
+    margin-top:1px !important;
+    overflow:hidden !important;
+}*/
+
+/********************************/
+.ui-menu .ui-menuitem-text{
+    float:right !important;
+}
+/********************************/
+
+/********************************/
+.ui-panelmenu .ui-menuitem-text{
+    float:right !important;
+}
+/********************************/
+
+.ui-menuitem-icon .ui-icon .ui-icon-document {
+    margin-right: 20px !important;
+}
+
+/*KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK*/
+li {
+    margin-right: 15px !important;
+}
+/*KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK*/
+
+/************** ribbon tabs ********************/
+.ui-tabs .ui-tabs-nav li{
+    list-style:none;
+    float:right !important;
+    position:relative;
+    margin:0 .2em 1px 0;
+    padding:0;
+    white-space:nowrap;
+}
+.ui-tabs .ui-tabs-nav li a{
+    float:right;
+    padding:.5em 1em;
+    text-decoration:none;
+}
+.ui-tabs .ui-tabs-nav li .ui-icon{
+    float:right;
+    margin:0.4em 0 0 0.2em !important;
+    cursor:pointer;
+}
+.ui-datatable-scrollable-theadclone th.ui-state-default{
+    height:0px;
+    border-right-width: 0px !important;
+    border-left-width: 0px !important;
+    border-bottom-width:0px;
+    border-top-width:0px;
+    margin-right: 1px !important;
+    padding-top:0px;
+    padding-bottom:0px;
+}
+/************************************************/
+
+/*------------ribbon content: ---------------*/
+.ui-ribbon{
+    font-size:11px;
+    padding:0;
+}
+.ui-ribbon .ui-tabs-panel{
+    padding:0;
+}
+.ui-ribbon .ui-ribbon-group{
+    float:right;
+    background:none;
+    border:none;
+    border-left:solid 1px #BCC7CF;
+    box-shadow:none;
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+    padding:0.2em;
+}
+.ui-ribbon .ui-ribbon-group .ui-ribbon-group-content{
+    height:6em;
+    background:none;
+    border:none;
+    box-shadow:none;
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+    border-width:0;
+    padding:0.2em 0.2em 0;
+}
+.ui-ribbon .ui-ribbon-group .ui-ribbon-group-label{
+    text-align:center;
+    font-weight:400;
+    white-space:nowrap;
+    margin-top:-1px;
+    border-width:1px 0 0;color:#333333;
+}
+.ui-ribbon .ui-button{
+    background:none;
+    box-shadow:none;
+    -webkit-box-shadow:none;
+    -moz-box-shadow:none;
+    color:#333;
+}
+.ui-ribbon-bigbutton{
+    background:none;
+    border:solid 1px transparent;
+    width:3.5em;
+    height:52px;
+    text-decoration:none;
+}
+.ui-ribbon-bigbutton .ui-icon{
+    height:32px;
+    left:50%;
+    margin-right:-17px;
+    margin-top:-24px;
+    width:32px;
+}
+.ui-ribbon-bigbutton .ui-button-text{
+    padding:3em 0 0;
+    font-size:10px;
+}
+.ui-ribbon .ui-button,.ui-ribbon .ui-selectonemenu{
+    float:right;
+    margin:1px 2px;
+}
+.ui-ribbon .ui-selectonemenu{
+    float:right;
+    -moz-border-radius-bottomright:0px;
+    -webkit-border-bottom-right-radius:0px;
+    border-radius:3px 0px 0px 3px;
+}
+.ui-ribbon .ui-buttonset .ui-button{
+    margin:0;
+    margin-right:-1px;
+}
+.ui-ribbon .ui-inputfield{
+    background:none;
+    box-shadow:none;
+}
+.ui-ribbon .ui-selectonemenu.ui-state-default{
+    background:none;
+    box-shadow:none;
+}
+.ui-ribbon .ui-selectonemenu .ui-selectonemenu-trigger{
+    background-image:none;
+    box-shadow:none;
+    -moz-border-radius-bottomright:0px;
+    -webkit-border-bottom-right-radius:0px;
+    border-radius:0px;
+}
+.ui-ribbon-groups.ui-widget-content{
+    background:rgb(255,255,255);
+    background:-moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 58%, rgba(249,249,249,1) 71%, rgba(237,237,237,1) 88%, rgba(232,232,232,1) 100%);
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(58%,rgba(255,255,255,1)), color-stop(71%,rgba(249,249,249,1)), color-stop(88%,rgba(237,237,237,1)), color-stop(100%,rgba(232,232,232,1)));
+    background:-webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 58%,rgba(249,249,249,1) 71%,rgba(237,237,237,1) 88%,rgba(232,232,232,1) 100%);
+    background:-o-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 58%,rgba(249,249,249,1) 71%,rgba(237,237,237,1) 88%,rgba(232,232,232,1) 100%);
+    background:-ms-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 58%,rgba(249,249,249,1) 71%,rgba(237,237,237,1) 88%,rgba(232,232,232,1) 100%);
+    background:linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 58%,rgba(249,249,249,1) 71%,rgba(237,237,237,1) 88%,rgba(232,232,232,1) 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e8e8e8',GradientType=0 );
+}
+
+.pe-dynaform-cell{
+    text-align:right !important;
+    vertical-align:middle !important;
+    padding:2px 10px 2px 0 !important;
+    white-space:nowrap!important;
+}
+.pe-dynaform-label{
+    float:right !important;
+    text-align:right !important;
+    vertical-align:middle !important;
+    padding:2px 7px !important;
+    white-space:nowrap !important;
+}
+.pe-dynaform-label .pe-dynaform-label-rfi{
+    margin-right:.4em !important;
+    float:right !important;
+}
+.ui-accordion-content{
+    padding:0 0 !important;
+    border-top:0 !important;
+    margin-top:-2px !important;
+    position:relative !important;
+    top:1px !important;
+    margin-bottom:2px!important;
+    overflow:auto!important;
+    zoom: 1 !important;
+}
+.ui-selectcheckboxmenu-panel .ui-selectcheckboxmenu-items-wrapper{
+    overflow:auto !important;;
+    position:relative !important;;
+    padding:0.2em 0.2em !important;;
+}
+.ui-selectcheckboxmenu-panel .ui-selectcheckboxmenu-list{
+    border:0 none !important;;
+}
+.ui-selectcheckboxmenu-panel .ui-selectcheckboxmenu-list-item{
+    border:0 none !important;
+    cursor:pointer !important;
+    font-weight:normal !important;
+    margin:1px 0 1px 0 !important;
+    padding:3px 5px !important;
+    text-align:right !important;
+    white-space:nowrap !important;
+}
+.ui-selectcheckboxmenu-panel .ui-selectcheckboxmenu-list-item{
+    display:block !important;;
+    position:relative !important;;
+}
+.ui-selectcheckboxmenu-panel .ui-selectcheckboxmenu-list-item .ui-chkbox{
+    position:absolute !important;
+    top:50% !important;
+    margin-top:-8px !important;
+}
+.ui-selectcheckboxmenu-panel .ui-selectcheckboxmenu-list-item label{
+    display:block !important;;
+    padding-left:2.2em !important;;
+    margin-right: 25px !important;
+}
+.ui-chkbox .ui-chkbox-label{
+    cursor:pointer !important;
+    margin:3px 0 3px 3px !important;
+    outline:medium none !important;
+    z-index:1 !important;
+    display:inline-block !important;
+    vertical-align:top !important;
+}
+/*
+.ui-selectonemenu-panel .ui-selectonemenu-list-item{
+    border:0px none !important;
+    margin:1px 0 !important;
+    padding:3px 5px !important;
+    text-align:right !important;
+    white-space:nowrap !important;
+}
+.ui-selectonemenu .ui-selectonemenu-label{
+    display:block !important;
+    border:none !important;
+    margin-right: 25px!important;
+    white-space:nowrap !important;
+    overflow:hidden !important;
+    font-weight:normal !important;
+    width:100% !important;
+    text-align:right !important;
+}
+
+.ui-selectlistbox-filter.ui-inputfield{
+    padding-left:12%!important;
+    padding-right:2%!important;
+    width:85%!important;
+    -moz-box-shadow:none!important;
+    -webkit-box-shadow:none!important;
+    box-shadow:none!important;
+}*/

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Persistence Configuration File -->
+<!-- Author: a.gholaminejad -->
+<!-- Modified: Monday, January 12, 2015 6:44:53 PM -->
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://java.sun.com/xml/ns/persistence
+   http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd"
+             version="1.0">
+    <persistence-unit name="portal" transaction-type="JTA">
+        <!-- mapping files -->
+        <!--jar-file/-->
+        <!-- mapped classes -->
+
+        <properties>
+            <property name="javax.persistence.jdbc.driver" value="oracle.jdbc.OracleDriver" />
+            <property name="javax.persistence.jdbc.url" value="jdbc:oracle:thin:@172.16.36.30:1521:XE" />
+            <property name="javax.persistence.jdbc.user" value="portal" />
+            <property name="javax.persistence.jdbc.password" value="portal" />
+            <!--<property name="hibernate.Dialect" value="org.hibernate.dialect.Oracle10gDialect"/>
+            <property name="hibernate.connection.url" value="jdbc:oracle:thin:@172.16.36.30:1521:XE"/>
+            <property name="hibernate.connection.username" value="bss"/>
+            <property name="hibernate.connection.password" value="bss"/>
+            <property name="hibernate.archive.autodetection" value="class"/>
+            <property name="hibernate.show_sql" value="true"/>-->
+        </properties>
+    </persistence-unit>
+</persistence>

@@ -1,0 +1,64 @@
+<ui:composition
+        xmlns="http://www.w3.org/1999/xhtml"
+        xmlns:f="http://java.sun.com/jsf/core"
+        xmlns:h="http://java.sun.com/jsf/html"
+        xmlns:p="http://primefaces.org/ui"
+        xmlns:ui="http://java.sun.com/jsf/facelets">
+
+    <h:form id="BasicInfo" styleClass="form">
+
+
+
+        <p:layout fullPage="true">
+
+            <p:layoutUnit position="north" size="100" header="header" resizable="true" closable="true" collapsible="true">
+
+            </p:layoutUnit>
+
+            <p:layoutUnit position="south" size="100" header="footer" resizable="true" closable="true" collapsible="true">
+
+            </p:layoutUnit>
+
+            <p:layoutUnit position="west" size="200" header="left" resizable="true" closable="true" collapsible="true">
+
+            </p:layoutUnit>
+
+            <p:layoutUnit position="east" size="200" header="right" resizable="true" closable="true" collapsible="true" effect="drop">
+
+            </p:layoutUnit>
+
+            <p:layoutUnit position="center">
+                <p:fieldset legend="اطلاعات پایه" toggleable="true" toggleSpeed="500">
+
+                    <h:panelGrid columns="4">
+                        <p:outputLabel for="in1" value="نام"/>
+                        <p:inputText id="in1" value="#{basicInfoBean.userBasicInfo.firstName}">
+
+                        </p:inputText>
+                        <p:outputLabel value="نام خانوادگی" />
+                        <p:inputText id="in2" value="#{basicInfoBean.userBasicInfo.lastName}"/>
+                        <p:outputLabel value="شناسه"/>
+
+                        <p:inputText id="in3" value="#{basicInfoBean.userBasicInfo.id}"/>
+                        <p:outputLabel value="کدملی"/>
+
+                        <p:inputText id="in4" value="#{basicInfoBean.userBasicInfo.nationalId}"/>
+                        <p:outputLabel value="آخرین وضعیت"/>
+
+                        <p:selectOneMenu required="true" value="#{basicInfoBean.userBasicInfo.lastStatus}" id="gender">
+                            <f:validateLength minimum="1"/>
+                            <f:selectItem itemLabel="انتخاب..." itemValue="" noSelectionOption="true"/>
+                            <f:selectItems value="#{basicInfoBean.gendertypeList}"
+                                           id="genderSelectionList"/>
+                        </p:selectOneMenu>
+                        <p:commandButton title="save" action="#{basicInfoBean.saveBasicInfo}"  value="ثبت" />
+                    </h:panelGrid>
+                </p:fieldset>
+            </p:layoutUnit>
+
+        </p:layout>
+
+
+
+</h:form>
+    </ui:composition>
